@@ -1,0 +1,77 @@
+/* CSS Compartilhado */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8dd887;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2E7D32; /* verde vivo */
+    color: rgb(241, 244, 247);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(234, 245, 234);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #FFEB3B; /* amarelo vivo */
+    color: #2E7D32;
+}
+
+/* Botões dentro das seções */
+.button {
+    display: inline-block;
+    background-color: #FF9800; /* laranja vibrante */
+    color: rgb(233, 240, 233);
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background-color: #f57c00;
+}
+
+/* Seções e caixas */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #f3f7f3;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #795548; /* marrom */
+    color: rgb(218, 226, 220);
+    text-align: center;
+    padding: 15px;
+}
